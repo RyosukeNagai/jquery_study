@@ -1,0 +1,123 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #E46E6E;
+}
+
+h1 {
+  padding: 45px 0;
+  color: #C15757;
+  font-size: 5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+main {
+  width: 1000px;
+  margin: 0 auto;
+  display: block;
+}
+
+main ul li {
+  float: left;
+  margin-right: 1px;
+  list-style-type: none;
+}
+
+main ul li a {
+  font-size: 2em;
+  font-weight: bold;
+  color: #FFF;
+  text-decoration: none;
+  display: block;
+  width: 100px;
+  padding: 15px 20px;
+  background: #C15757;
+}
+
+main ul li a:hover {
+  background: #D26161;
+  color: #FFF;
+}
+
+ul li a.current {
+  background: #F5F4F2;
+  color: #C15757;
+}
+
+#contents {
+  clear: both;
+  margin-bottom: 150px;
+}
+
+#contents div {
+  padding: 30px 20px;
+  background: #F5F4F2;
+}
+
+#contents div p {
+  margin-top: 20px;
+  line-height: 2em;
+  color: #C15757;
+}
+
+#contents div p strong {
+  font-size: 4em;
+  font-weight: bold;
+  color: #D6AF62;
+}
+/*# sourceMappingURL=style.css.map */
